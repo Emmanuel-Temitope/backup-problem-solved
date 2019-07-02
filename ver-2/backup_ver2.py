@@ -11,9 +11,9 @@ import time
 #source directory for backup
 #to be backup in a list , so can bakcup up multiple directories
 #for names with spaces in it- ['"My Documents"']
-source = ['"C:\\Users\\Emmanuel-Temitope\\Videos"', r'C:\Users\Emmanuel-Temitope\Pictures']
+source = ['"source"', r'another source']
 
-target_dir = r'C:\Users\Emmanuel-Temitope\Backup'
+target_dir = r'target'
 
 #checking if the target-directory exists and creating it if not.
 if not os.path.exists(target_dir):
@@ -45,4 +45,4 @@ else:
     print('BACKUP FAILED')
 
 #approximately 0.7milli-sec per 1mb
-#amd approximately 14.35mb per seconds
+#and approximately 14.35mb per seconds
