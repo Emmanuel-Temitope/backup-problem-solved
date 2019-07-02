@@ -9,10 +9,10 @@ import os
 import time
 
 #location of directory
-source = [r'C:\Users\Emmanuel-Temitope\Documents\Coding\Python\Code\backup-solution', '"C:\\Users\\Oloyede Emmanuel"']
+source = [r'source', '"Another source"']
 
 #targer directory
-target_dir = r'C:\Users\Emmanuel-Temitope\Backup'
+target_dir = r'target'
 
 if not os.path.exists(target_dir):
     os.mkdir(target_dir)
